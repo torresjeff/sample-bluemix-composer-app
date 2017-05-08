@@ -1,0 +1,26 @@
+{
+  "name": "sample-bluemix-composer-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simon Stone",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bluemix-object-storage": "^2.0.1",
+    "cfenv": "^1.0.4",
+    "composer-client": "^0.7.1",
+    "composer-common": "^0.7.1",
+    "express": "^4.15.2",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  }
+}
